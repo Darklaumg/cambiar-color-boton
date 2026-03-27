@@ -1,0 +1,30 @@
+.boton{
+    background-color: rgba(180, 9, 9, 0.863) !important;
+    color: black;
+    width: 115px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid rgb(0, 0, 0) ;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+.boton:hover{
+    background-color:rgb(0, 0, 0) !important;
+    color:  rgba(180, 9, 9, 0.863);
+    border: 3px solid rgba(180, 9, 9, 0.863);
+    border-radius: 100px;
+}
